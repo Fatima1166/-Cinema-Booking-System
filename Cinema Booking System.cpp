@@ -1,7 +1,6 @@
 // ============================================================
 // CINEMA BOOKING SYSTEM
 // A simple console-based application for managing movie tickets
-// Author: Developed with ❤️
 // ============================================================
 
 #include <iostream>
@@ -454,11 +453,11 @@ public:
                     viewAvailableShows();
                     break;
                 case 0:
-                    cout << GREEN << "\n  ✅ Thank you for using our system!\n" << RESET;
+                    cout << GREEN << "\n  Thank you for using our system!\n" << RESET;
                     cout << "  Have a great day! 🎬\n\n";
                     break;
                 default:
-                    cout << RED << "\n  ❌ Invalid choice! Please try again.\n" << RESET;
+                    cout << RED << "\n  Invalid choice! Please try again.\n" << RESET;
             }
             
         } while (choice != 0);
